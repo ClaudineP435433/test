@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Open+Sans:400,700');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240,240,240);
+}
+
+h1, h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  color: #7B7263;
+}
+
+h2 {
+  color: #C6CA53;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #C6CA53;
+}
+
+a:hover {
+  color:  #7B7263;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-button {
+  background-color: blue;
+  color: white;
+  padding: 8px 24px;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: 40px;
+}
